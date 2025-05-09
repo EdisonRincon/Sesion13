@@ -24,9 +24,11 @@
         //Función que retorna un valor
         function par(numero){
             if(numero % 2 == 0){
+                return true;
+            }else{
                 return false;
             }
-            let numero = 10;
+            let numero = 25;
             let esNumeroPar = par(numero);
             document.write("Es " , numero, "par?", esNumeroPar);
         }
